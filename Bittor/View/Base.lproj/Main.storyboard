@@ -44,20 +44,20 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="364" height="80"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoinsign.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="WLV-Di-RrW">
-                                                        <rect key="frame" x="0.0" y="1" width="80" height="77.5"/>
+                                                        <rect key="frame" x="0.0" y="1" width="50" height="77.5"/>
                                                         <color key="tintColor" red="0.83921568627450982" green="0.97647058823529409" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="LeO-G5-7cj"/>
+                                                            <constraint firstAttribute="width" constant="50" id="LeO-G5-7cj"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QG0-nR-nvY">
-                                                        <rect key="frame" x="90" y="25" width="213.5" height="30"/>
+                                                        <rect key="frame" x="60" y="25" width="100" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USD" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFp-z6-40h">
-                                                        <rect key="frame" x="313.5" y="25" width="50.5" height="30"/>
+                                                        <rect key="frame" x="170" y="25" width="194" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -66,6 +66,7 @@
                                                 <constraints>
                                                     <constraint firstItem="WLV-Di-RrW" firstAttribute="top" secondItem="zpr-or-ylY" secondAttribute="top" id="1LQ-u9-ePq"/>
                                                     <constraint firstAttribute="bottom" secondItem="WLV-Di-RrW" secondAttribute="bottom" id="Pd7-Qq-hiA"/>
+                                                    <constraint firstItem="IFp-z6-40h" firstAttribute="leading" secondItem="WLV-Di-RrW" secondAttribute="leading" constant="170" id="USR-Sn-Bzm"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
