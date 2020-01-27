@@ -1,4 +1,7 @@
 # Bittor
+## BitCoin price tracking made easy.
 
-# A simple app to track current BitCoin prices in multiple currencies.
-# Makes use of https://bitcoinaverage.com/ API
+### Makes use of https://bitcoinaverage.com/ API
+
+
+![alt text](https://ibb.co/xCVfFmL)
